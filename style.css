@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  font-weight: 600;
+  list-style: none;
+}
+
+.btn {
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+}
+.btn:hover {
+  background-color: hsl(180, 66%, 49%) !important;
+  opacity: 0.5;
+  color: white;
+}
+
+.card-title {
+  font-size: 3rem !important;
+}
+.card-body p {
+  padding: 2rem;
+}
+
+.form {
+  width: 80vw;
+}
