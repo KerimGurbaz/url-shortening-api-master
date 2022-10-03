@@ -28,6 +28,40 @@ li {
   padding: 2rem;
 }
 
-.form {
-  width: 80vw;
+.form-shorten {
+  width: 80%;
+  background-color: rgb(73, 65, 105);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  gap: 2rem;
+  object-fit: cover;
+  padding: 3rem;
+}
+.form-control {
+  width: 100%;
+}
+
+.shorten-btn {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cards {
+  background-color: hsl(0, 0%, 75%);
+}
+
+.col .card {
+  width: 80%;
+}
+.col .card h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.col .card p {
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 500;
 }
