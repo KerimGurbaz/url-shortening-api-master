@@ -37,6 +37,8 @@ li {
   gap: 2rem;
   object-fit: cover;
   padding: 3rem;
+  margin-top: 3rem;
+  border: none;
 }
 .form-control {
   width: 100%;
@@ -51,17 +53,65 @@ li {
 
 .cards {
   background-color: hsl(0, 0%, 75%);
+  margin-top: 3rem;
 }
 
 .col .card {
   width: 80%;
+  margin-top: 3rem;
+  z-index: 6;
 }
 .col .card h5 {
   font-size: 18px;
   font-weight: 600;
+  margin-top: 3rem;
 }
 .col .card p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: grey;
   font-weight: 500;
+}
+
+picture {
+  position: absolute;
+  background-color: rgb(61, 47, 83);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  padding: 1rem;
+  top: -2.5rem;
+  left: 40%;
+  margin-bottom: 3rem;
+}
+picture img {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.1rem;
+}
+
+.advanced {
+  background-color: transparent;
+  border: none;
+}
+.advanced p {
+  font-size: 1.5rem !important;
+}
+.line {
+  border-right: 0.6rem solid hsl(180, 66%, 49%);
+  width: 3rem;
+  height: 5rem;
+  position: absolute;
+  bottom: -5rem;
+  left: 41%;
+  transform: translate(90deg);
+}
+.boost {
+  background: url(./images/bg-boost-mobile.svg);
+  background-color: hsl(257, 7%, 63%);
+  background-size: cover;
+  height: 400px;
+}
+.boost h2 {
+  font-size: 2.5rem;
+  color: white;
 }
