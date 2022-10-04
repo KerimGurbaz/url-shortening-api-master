@@ -115,3 +115,12 @@ picture img {
   font-size: 2.5rem;
   color: white;
 }
+
+footer a {
+  color: lightgray !important;
+  margin: 2rem;
+}
+footer a i {
+  color: white;
+  font-size: 1.5remrem;
+}
