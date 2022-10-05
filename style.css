@@ -62,8 +62,8 @@ li {
   z-index: 6;
 }
 .col .card h5 {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 1.5rem !important;
+  font-weight: 700;
   margin-top: 3rem;
 }
 .col .card p {
@@ -122,25 +122,57 @@ footer a {
 }
 footer a i {
   color: white;
-  font-size: 1.5remrem;
+  font-size: 1.5rem;
 }
-/* 
+
 .copy {
-  background-color: aquamarine;
+  background-color: #72f2eb;
   margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border: none;
+  padding: 0.7rem;
+  width: 40%;
+  border-radius: 1rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .par {
   margin-top: 2rem;
-  border: 2px solid red;
-} */
+}
 
 .newShorten {
-  background-color: red;
   margin-bottom: 3rem !important;
   font-size: 1.5rem;
   overflow: hidden;
 }
 .newShorten a {
   font-size: larger;
+  color: #72f2eb;
+}
+
+.myDiv {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+  color: white;
+  background-color: #ff5f5d;
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.myDiv i {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .myDiv {
+    padding: 0rem;
+  }
+  .copy {
+    font-size: 1rem;
+  }
 }
